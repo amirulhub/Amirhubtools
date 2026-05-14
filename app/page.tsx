@@ -229,7 +229,7 @@ export default function App() {
     const url = URL.createObjectURL(content);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Amirhub_2.0_JPGs_${Date.now()}.zip`;
+    link.download = `Amirhub_2.0.1_JPGs_${Date.now()}.zip`;
     link.click();
     URL.revokeObjectURL(url);
     setIsConvertingToJpg(false);
@@ -267,7 +267,7 @@ export default function App() {
     const link = document.createElement('a');
     link.href = url;
     // Renamed as requested
-    link.download = `Amirhub_2.0_Vectors_${Date.now()}.zip`;
+    link.download = `Amirhub_2.0.1_Vectors_${Date.now()}.zip`;
     link.click();
     URL.revokeObjectURL(url);
     setIsResizing(false);
@@ -298,7 +298,7 @@ export default function App() {
     const url = URL.createObjectURL(content);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Amirhub_2.0_Fixed_Sizes_${Date.now()}.zip`;
+    link.download = `Amirhub_2.0.1_Fixed_Sizes_${Date.now()}.zip`;
     link.click();
     URL.revokeObjectURL(url);
     setIsProcessingImages(false);
@@ -512,7 +512,7 @@ export default function App() {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <span className="text-xl font-black tracking-tighter bg-gradient-to-r from-neutral-900 via-purple-600 to-orange-600 bg-clip-text text-transparent">AMIRHUB 2.0</span>
+              <span className="text-xl font-black tracking-tighter bg-gradient-to-r from-neutral-900 via-purple-600 to-orange-600 bg-clip-text text-transparent">AMIRHUB 2.0.1</span>
             </div>
           
           <nav className="hidden md:flex items-center gap-1 bg-white/40 border border-white p-1 rounded-2xl shadow-sm backdrop-blur-md">
@@ -662,9 +662,9 @@ export default function App() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                   <div className="space-y-6">
                     <div className="space-y-2">
-                       <h2 className="text-3xl font-black tracking-tight">About Amirhub 2.0</h2>
+                       <h2 className="text-3xl font-black tracking-tight">About Amirhub 2.0.1</h2>
                        <p className="text-neutral-500 font-medium leading-relaxed">
-                         Amirhub 2.0 is a specialized utility suite designed for microstock contributors. 
+                         Amirhub 2.0.1 is a specialized utility suite designed for microstock contributors. 
                          Our mission is to simplify the content submission workflow by providing powerful, 
                          AI-driven tools for metadata generation, vector resizing, and file optimization.
                        </p>
